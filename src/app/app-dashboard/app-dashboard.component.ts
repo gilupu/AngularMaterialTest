@@ -12,4 +12,10 @@ export class AppDashboardComponent {
     { title: 'Card 3', cols: 1, rows: 2 },
     { title: 'Card 4', cols: 1, rows: 1 }
   ];
+
+  kuku() {
+    let a = 4;
+    a++;
+    return a + 'text';
+  }
 }
